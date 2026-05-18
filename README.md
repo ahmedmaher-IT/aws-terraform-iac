@@ -1,16 +1,2 @@
-terraform-aws-infrastructure/
-│
-├── modules/
-│   ├── ec2/
-│   ├── vpc/
-│   └── s3/
-│
-├── screenshots/
-│
-├── main.tf
-├── variables.tf
-├── outputs.tf
-├── provider.tf
-├── backend.tf
-├── terraform.tfvars.example
-└── README.md
+terraform-aws-project/
+├── main.tf├── variables.tf├── outputs.tf├── backend.tf└── modules/ ├── vpc/ │ ├── main.tf │ ├── variables.tf │ └── outputs.tf ├── ec2/ │ ├── main.tf │ ├── variables.tf │ └── outputs.tf └── s3/ ├── main.tf ├── variables.tf └── outputs.tf
